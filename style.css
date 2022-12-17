@@ -83,7 +83,14 @@ html {
     margin-top: 20px;
     color: white;
 }
+.footer-container{
+    text-align: center;
+    color:rgb(0, 0, 0);
 
+}
+.footer-container p{
+    font-size: 20px;
+}
 
 
 @media only screen and (max-width:670px) {
