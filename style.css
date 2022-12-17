@@ -106,6 +106,7 @@ html {
         flex-direction: column-reverse;
         flex-wrap: wrap;
         align-items: center;
+        justify-items: center;
 
 
     }
