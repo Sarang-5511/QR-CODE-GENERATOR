@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">QR GENERATOR</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link nav-link-ltr" href="https://sarang-5511.github.io/Portfolio/">Developer
+                        Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section id="main-section">
+        <div class="container-fluid p-0">
+            <div class="maincontainer">
+                <div class="descontainer">
+                    <h3>QR Code Generator</h3>
+                   <p> QR code allows daily smartphone users to access websites simply and quickly.</p>
+                    <p>Enter the url of the website and get its QR code generated.</p>
+
+                    <div class="formbox">
+                        <form id="generate-form">
+                            <div class="form-group">
+                                <input type="text" name="inputurl" class="form-control" id="inputurl"
+                                    placeholder="Enter website URL">
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control" id="inputsize">
+                                    <option value="200">200×200</option>
+                                    <option value="300">300×300</option>
+                                    <option value="400">400×400</option>
+                                    <option value="500">500×500</option>
+                                    <option value="600">600×600</option>
+                                </select>
+                            </div>
+                            <div>
+                                <button type="button" id="submitbutton"
+                                    class="btn btn-primary btn-block">GENERATE</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="descontainer2">
+                    <img src="img7.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="outputsection">
+
+
+        <div id="qrcode">
+
+        </div>
+        <div id="savebtn">
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+        integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.5;
+    overflow-x: hidden;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    padding: 20px 12%;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+#main-section {
+    padding: 3% 12%;
+    margin: auto;
+}
+
+#outputsection {
+    padding: 5% 12%;
+    margin: auto !important;
+    text-align: center !important;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+.descontainer h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.descontainer p {
+    font-size: 18px;
+}
+
+.descontainer2 {
+    margin: auto;
+}
+
+.descontainer2 img {
+    height: 400px;
+    width: 400px;
+}
+
+.formbox {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    /* margin: auto; */
+    width: 70%;
+    height: fit-content;
+    padding: 30px;
+    max-width: 80em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+#savebtn {
+    margin-top: 20px;
+    color: white;
+}
+
+
+
+@media only screen and (max-width:670px) {
+    .navbar {
+        padding: 20px 5%;
+    }
+    #main-section {
+        padding: 5%;
+        margin: auto;
+    }
+
+    #outputsection {
+        padding: 10%;
+        margin: auto !important;
+        text-align: center !important;
+    }
+
+    .maincontainer {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+
+
+    }
+
+    .formbox {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        margin: auto;
+        width: 100%;
+        height: fit-content;
+        padding: 30px 15px;
+        max-width: 80em;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 5px;
+
+    }
+
+    .descontainer {
+        margin-top: 20px;
+    }
+}
